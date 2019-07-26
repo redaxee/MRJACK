@@ -1,4 +1,4 @@
-import os, sys
+import os, sys, time
 
 print ("\033[1;32mSilahkan Masukkan Username & Password Anda")
 
@@ -64,5 +64,6 @@ try:
 except KeyboardInterrupt:
 
 	os.system('clear')
+	os.system('xdg-open https://www.youtube.com/channel/UCuMk-x9YpT1ctiYh3HpGvRw')
 
 	restart()
