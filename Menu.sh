@@ -93,20 +93,20 @@ sleep 1
 clear
 echo
 echo $pur"==================="$cy" ============================="
-echo $i"Ôûê"$pu"  AUTHOR  :  MR-JACK  "$i"                    Ôûê"
-echo $i"Ôûê"$pu"  WhatsApp:  082219449*** "$i"                Ôûê"
-echo $i"Ôûê"$pu"  YOUTUBE :  Feri        "$i"                 Ôûê"
+echo $i"Ã”Ã»Ãª"$pu"  AUTHOR  :  MR-JACK  "$i"                    Ã”Ã»Ãª"
+echo $i"Ã”Ã»Ãª"$pu"  WhatsApp:  082219449*** "$i"                Ã”Ã»Ãª"
+echo $i"Ã”Ã»Ãª"$pu"  YOUTUBE :  Feri        "$i"                 Ã”Ã»Ãª"
 echo $pur"==================="$cy" ============================="
 echo
-
 echo $cy"MENU MR-JACK:"
 echo $ku"["$me"1"$ku"]"$i"SpamCall"
 echo $ku"["$me"2"$ku"]"$i"SpamGmail"
 echo $ku"["$me"3"$ku"]"$i"brutalSms"
 echo $ku"["$me"4"$ku"]"$i"MElacak Orang"
 echo $i"["$me"0"$i"]"$ku" EXIT"
-echo $pur"Ôò¡ÔöÇ["$pur"Masukkan Pilihan anda"$pur"]"
-read -p"Ôò¦ÔöÇ>> " pil
+echo $pur"Ã”Ã²Â¡Ã”Ã¶Ã‡["$pur"Masukkan Pilihan anda"$pur"]"
+read -p"Ã”Ã²Â¦Ã”Ã¶Ã‡>> " pil
+
 
 if [ $pil = 1 ]
 then
@@ -114,13 +114,11 @@ clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
 pkg install php -y
-
 git clone https://github.com/ClayHackerTeam/311
-
 cd 311
-
 php SpamCall.php
 fi
+
 
 if [ $pil = 2 ]
 then
@@ -132,6 +130,7 @@ git clone https://github.com/BlackCoderCrush/BulkMailSpam
 cd BulkMailSpam
 python2 BulkMailSpam.py
 fi
+
 
 if [ $pil = 2 ]
 then
@@ -155,6 +154,7 @@ git clone https://github.com/thelinuxchoice/locator
 cd locator
 bash locator.sh
 fi
+
 
 if [ $pil = 0 ]
 then
