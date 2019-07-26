@@ -105,6 +105,7 @@ echo $ku"["$me"2"$ku"]"$i"SpamGmail"
 echo $ku"["$me"3"$ku"]"$i"brutalSms"
 echo $ku"["$me"4"$ku"]"$i"Melacak Orang"
 echo $ku"["$me"5"$ku"]"$i"HACK CCTV"
+echo $ku"["$me"6"$ku"]"$i"HACK FACEBOOK TARGET"
 echo $i"["$me"0"$i"]"$ku" EXIT"
 echo
 echo $pur"Ôò¡ÔöÇ["$pur"Masukkan pilihan anda"$pur"]"
@@ -164,6 +165,19 @@ git clone https://github.com/kancotdiq/ipcs
 cd ipcs 
 python2 scan.py
 fi
+
+
+if [ $pil = 6 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 1
+pip2 install requests
+https://github.com/redaxee/crkfb
+cd crkfb 
+python2 fb.py
+fi
+
 
 if [ $pil = 0 ]
 then
