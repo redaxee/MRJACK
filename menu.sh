@@ -13,7 +13,7 @@ echo
 clear
 echo
 echo $red"          Tool akan di install dalam waktu 5 detik"
-echo $red"            harap sabar menunggu yaa sayang :v("   
+echo $red"            harap sabar menunggu yaa sayang :v"   
 sleep 1
 echo '''\a
 \033[34;1m                              _
