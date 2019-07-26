@@ -4,9 +4,9 @@ print ("\033[1;32mSilahkan Masukkan Username & Password Anda")
 
 print ("\033[1;32matau silahkan Hubungi MRR ")
 
-username = 'Mr-JACK'      
+username = 'Rahmad'      
 
-password = 'RedAxee'
+password = 'Jomblo123'
 
 
 
@@ -30,7 +30,7 @@ def main():
 
 		if pwd == password:
 
-			print "\033[1;32mTerima Kasih Anda Sudah Menggunakan Tools ini..", 
+			print "\033[1;32mAlhmdllh sudah masuk juga..", 
 
 			sys.exit()
 
