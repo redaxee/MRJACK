@@ -31,7 +31,7 @@ def main():
 
 		if pwd == password:
 
-			print "\033[1;32mAlhmdllh sudah masuk juga..", 
+			print "\033[1;32mSelamat Datang Di Tool Menu MR-JACK..", 
 
 			sys.exit()
 
@@ -63,6 +63,6 @@ try:
 
 except KeyboardInterrupt:
 
-	os.system('xdg-open https://www.youtube.com/channel/UCuMk-x9YpT1ctiYh3HpGvRw')
+	os.system('clear')
 
 	restart()
