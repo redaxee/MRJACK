@@ -12,4 +12,8 @@ pkg install openssh
 
 pkg install git
 
-git clone https://github.com/rahmadxyz/ToolsLengkap.git
+git clone https://github.com/redaxee/MRJACK
+
+cd MRJACK
+
+sh menu.sh
