@@ -93,11 +93,12 @@ sleep 1
 clear
 echo
 echo
-echo $pur"==================="$cy" ============================="
-echo $i"Ôûê"$pu"  AUTHOR       :  MR-JACK  "$i"              Ôûê"
-echo $i"Ôûê"$pu"  WhatsApp     :  082219449227 "$i"          Ôûê"
-echo $i"Ôûê"$pu"  YOUTUBE      :  Feri        "$i"           Ôûê"
-echo $pur"==================="$cy" ============================="
+echo $pur"==================="$cy" ============================================"
+echo $i"Ôûê"$pu"  AUTHOR       :  MR-JACK  "$i"                            Ôûê"
+echo $i"Ôûê"$pu"  Blogger      :  Blog-RedAxee.blogspot.com "$i"           Ôûê"
+echo $i"Ôûê"$pu"  WhatsApp     :  082219449227 "$i"                        Ôûê"
+echo $i"Ôûê"$pu"  YOUTUBE      :  Feri                        "$i"         Ôûê"
+echo $pur"==================="$cy" ============================================="
 echo
 echo $cy"MENU MR-JACK:"
 echo $ku"["$me"1"$ku"]"$i"SpamCall"
