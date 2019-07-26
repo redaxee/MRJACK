@@ -107,6 +107,7 @@ echo $ku"["$me"3"$ku"]"$i"Brutal Sms"
 echo $ku"["$me"4"$ku"]"$i"Melacak Orang"
 echo $ku"["$me"5"$ku"]"$i"HACK CCTV"
 echo $ku"["$me"6"$ku"]"$i"HACK FACEBOOK TARGET"
+echo $ku"["$me"7"$ku"]"$i"OPOK TELKOMSEL (FREE INTERNET)"
 echo $i"["$me"0"$i"]"$ku" EXIT"
 echo
 echo $pur"["$pur"Masukkan pilihan anda"$pur"]"
@@ -177,6 +178,18 @@ pip2 install requests
 https://github.com/redaxee/crkfb
 cd crkfb 
 python2 fb.py
+fi
+
+if [ $pil = 7 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 1
+pkg install python2 -y
+https://github.com/Rusmana-ID/polosan-telkomsel
+cd polosan-telkomsel
+python2 run.py
+python2 inject.py
 fi
 
 
