@@ -93,18 +93,29 @@ sleep 1
 clear
 echo
 echo $pur"==================="$cy" ============================="
-echo $i"Ôûê"$pu"  AUTHOR  :  MR-JACK  "$i"                    Ôûê"
-echo $i"Ôûê"$pu"  WhatsApp:  082219449*** "$i"                Ôûê"
-echo $i"Ôûê"$pu"  YOUTUBE :  Feri        "$i"                 Ôûê"
+echo $i"Ôûê"$pu"  AUTHOR  :  RAHMAD  "$i"                    Ôûê"
+echo $i"Ôûê"$pu"  WhatsApp:  0888099xxxxx"$i"                Ôûê"
+echo $i"Ôûê"$pu"  GMAIL   :  kucingkaget22@gmail.com"$i"     Ôûê"
+echo $i"Ôûê"$pu"  YOUTUBE :  YouTube RMD"$i"                 Ôûê"
 echo $pur"==================="$cy" ============================="
 echo
-echo $cy"MENU MR-JACK:"
-echo $ku"["$me"1"$ku"]"$i"SpamCall"
-echo $ku"["$me"2"$ku"]"$i"SpamGmail"
-echo $ku"["$me"3"$ku"]"$i"brutalSms"
-echo $ku"["$me"4"$ku"]"$i"MElacak Orang"
-echo $i"["$me"0"$i"]"$ku" EXIT"
-echo $pur"Ôò¡ÔöÇ["$pur"Masukkan Pilihan anda"$pur"]"
+echo $cy"MeNu BRUTEPORCE NeWS:"
+echo $ku"["$me"1"$ku"]"$i" REPORT FB"
+echo $ku"["$me"2"$ku"]"$i" BRUTE PORCE"
+echo $ku"["$me"3"$ku"]"$i" BRUTE FORCE FB CRACKER"
+echo $ku"["$me"4"$ku"]"$i" MBF"
+echo $ku"["$me"5"$ku"]"$i" CLONING YAHOO"
+echo $ku"["$me"6"$ku"]"$i" OSIF"
+echo $ku"["$me"7"$ku"]"$i" PROFILEGUARD FB"
+echo $ku"["$me"8"$ku"]"$i" BOT REACTION FACEBOOK"
+echo $ku"["$me"9"$ku"]"$i" SPAM CALL"
+echo $ku"["$me"10"$ku"]"$i" SPAM WHATSHAPP"
+echo $ku"["$me"11"$ku"]"$i" YOUTUBE-DL"
+echo $ku"["$me"12"$ku"]"$i" LACAK LOKASI"
+echo $ku"["$me"13"$ku"]"$i" SPAM SMS BRUTAL TERBARU"
+echo $i"["$me"14"$i"]"$ku" EXIT"
+echo
+echo $pur"Ôò¡ÔöÇ["$pur"Masukkan pilihan anda"$pur"]"
 read -p"Ôò¦ÔöÇ>> " pil
 
 if [ $pil = 1 ]
@@ -112,10 +123,10 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-pkg install php -y
-git clone https://github.com/ClayHackerTeam/311
-cd 311
-php SpamCall.php
+git clone https://github.com/IlayTamvan/Report.git
+cd Report
+unzip Report.zip
+python2 Report.py
 fi
 
 if [ $pil = 2 ]
@@ -123,21 +134,19 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-pip2 install requests
-git clone https://github.com/BlackCoderCrush/BulkMailSpam
-cd BulkMailSpam
-python2 BulkMailSpam.py
+git clone https://github.com/Senitopeng/fbbrute.git
+cd fbbrute
+python2 jomblo.py
 fi
 
-if [ $pil = 2 ]
+if [ $pil = 3 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-pip2 install requests
-https://github.com/TERMUXID3/brutal-sms
-cd brutal-sms
-python2 run.py
+git clone https://github.com/FR13ND8/Fb-Cracker-v.3.git
+cd Fb-Cracker-v.3
+python2 crack.py
 fi
 
 if [ $pil = 4 ]
@@ -145,13 +154,106 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-pip2 install requests
-git clone https://github.com/thelinuxchoice/locator
+git clone https://github.com/tikuskecil/multi-bruteforce-facebook.git
+cd multi-bruteforce-facebook
+python2 MBF.py
+fi
+
+if [ $pil = 5 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 1
+git clone https://github.com/wahyuandhika/YahooCloning.git
+cd YahooCloning
+pip2 install requests mechanize
+pip2 install requirements
+python2 cloning.py
+fi
+
+if [ $pil = 6 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 1
+git clone https://github.com/CiKu370/OSIF.git
+cd OSIF
+pip2 install -r requirements.txt
+python2 osif.py
+fi
+
+if [ $pil = 7 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 1
+git clone https://github.com/jaxBCD/FBshield.git
+cd FBshield
+python2 guard.py
+fi
+
+if [ $pil = 8 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 1
+git clone https://github.com/edi-nasa12/ROBOT.git
+cd ROBOT
+python2 blackbot.py
+fi
+
+if [ $pil = 9 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 1
+git clone https://github.com/Aditya021/SpamCall
+cd SpamCall
+php SpamCall.php
+fi
+
+if [ $pil = 10 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 1
+git clone https://github.com/4L13199/LITESPAM.git
+cd LITESPAM
+sh LITESPAM.sh
+fi
+
+if [ $pil = 11 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 1
+git clone https://github.com/rahmadxyz/sub-bot.git
+cd sub-bot
+php sub-bot.php
+fi
+
+if [ $pil = 12 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 1
+git clone https://github.com/thelinuxchoice/locator.git
 cd locator
 bash locator.sh
 fi
 
-if [ $pil = 0 ]
+if [ $pil = 13 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 1
+git clone https://github.com/N74NK/brutalsms.git
+cd brutalsms
+python2 brutalsms.py
+fi
+
+
+if [ $pil = 14 ]
 then
 clear
 figlet -f slant "W A I T"|Ulolcat
@@ -162,12 +264,12 @@ echo $i"Silahkan di pakai semoga bermanfaat Buat anda"
 sleep 2
 echo $pur"Bila Ada Kesalahan Anda Bisa Nanya Melalui Via"
 sleep 2
-echo $ku"Facebook :"$i" fb.com/redaxeee"
-echo $ku"YouTube  :"$i" Feri"
-echo $ku"WhatsApp :"$i" 08221944***"
+echo $ku"Facebook :"$i" Rahmad Ramadhani"
+echo $ku"YouTube  :"$i" YouTube RMD"
+echo $ku"WhatsApp :"$i" 0887882xxxx"
 sleep 2
 echo $pur"Terima kasih Yang Sudah Support dengan Tools ini"
 sleep 2
-echo $pur"SUBSCRIBE MY CHANNEL { Feri }"
+echo $pur"SUBSCRIBE MY CHANNEL { YOUTUBE RMD }"
 exit
 fi
