@@ -101,9 +101,9 @@ echo $i"Ôûê"$pu"  YOUTUBE      :  Feri                        "$i"         Ô
 echo $pur"==================="$cy" ============================================="
 echo
 echo $cy"MENU MR-JACK:"
-echo $ku"["$me"1"$ku"]"$i"SpamCall"
-echo $ku"["$me"2"$ku"]"$i"SpamGmail"
-echo $ku"["$me"3"$ku"]"$i"brutalSms"
+echo $ku"["$me"1"$ku"]"$i"Spam Call"
+echo $ku"["$me"2"$ku"]"$i"Spam Gmail"
+echo $ku"["$me"3"$ku"]"$i"Brutal Sms"
 echo $ku"["$me"4"$ku"]"$i"Melacak Orang"
 echo $ku"["$me"5"$ku"]"$i"HACK CCTV"
 echo $ku"["$me"6"$ku"]"$i"HACK FACEBOOK TARGET"
