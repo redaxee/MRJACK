@@ -103,9 +103,11 @@ echo $cy"MENU MR-JACK:"
 echo $ku"["$me"1"$ku"]"$i"SpamCall"
 echo $ku"["$me"2"$ku"]"$i"SpamGmail"
 echo $ku"["$me"3"$ku"]"$i"brutalSms"
-echo $ku"["$me"4"$ku"]"$i"MElacak Orang"
+echo $ku"["$me"4"$ku"]"$i"Melacak Orang"
+echo $ku"["$me"5"$ku"]"$i"HACK CCTV"
 echo $i"["$me"0"$i"]"$ku" EXIT"
-echo $pur"Ôò¡ÔöÇ["$pur"Masukkan Pilihan anda"$pur"]"
+echo
+echo $pur"Ôò¡ÔöÇ["$pur"Masukkan pilihan anda"$pur"]"
 read -p"Ôò¦ÔöÇ>> " pil
 
 if [ $pil = 1 ]
@@ -150,6 +152,17 @@ pip2 install requests
 git clone https://github.com/thelinuxchoice/locator
 cd locator
 bash locator.sh
+fi
+
+if [ $pil = 5 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 1
+pip2 install requests
+git clone https://github.com/kancotdiq/ipcs
+cd ipcs 
+python2 scan.py
 fi
 
 if [ $pil = 0 ]
