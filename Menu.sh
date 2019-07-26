@@ -8,7 +8,7 @@ pu='\033[37;1m' #purple
 ku='\033[33;1m' #kuning
 echo
 echo
-python2 Login.py
+python2 meizu.py
 echo
 clear
 echo
@@ -107,7 +107,6 @@ echo $i"["$me"0"$i"]"$ku" EXIT"
 echo $pur"Ôò¡ÔöÇ["$pur"Masukkan Pilihan anda"$pur"]"
 read -p"Ôò¦ÔöÇ>> " pil
 
-
 if [ $pil = 1 ]
 then
 clear
@@ -118,7 +117,6 @@ git clone https://github.com/ClayHackerTeam/311
 cd 311
 php SpamCall.php
 fi
-
 
 if [ $pil = 2 ]
 then
@@ -131,7 +129,6 @@ cd BulkMailSpam
 python2 BulkMailSpam.py
 fi
 
-
 if [ $pil = 2 ]
 then
 clear
@@ -143,7 +140,6 @@ cd brutal-sms
 python2 run.py
 fi
 
-
 if [ $pil = 4 ]
 then
 clear
@@ -154,7 +150,6 @@ git clone https://github.com/thelinuxchoice/locator
 cd locator
 bash locator.sh
 fi
-
 
 if [ $pil = 0 ]
 then
