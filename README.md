@@ -1,4 +1,4 @@
-# MRJACK
+# MR-JACK
 
 Pkg install update && upgrade
 
