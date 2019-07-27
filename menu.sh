@@ -168,7 +168,6 @@ cd ipcs
 python2 scan.py
 fi
 
-
 if [ $pil = 6 ]
 then
 clear
