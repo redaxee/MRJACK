@@ -93,12 +93,12 @@ sleep 1
 clear
 echo
 echo
-echo $pur"==================="$cy" ============================================"
-echo $i"Ôûê"$pu"  AUTHOR       :  MR-JACK  "$i"                            Ôûê"
-echo $i"Ôûê"$pu"  Blogger      :  Blog-RedAxee.blogspot.com "$i"           Ôûê"
-echo $i"Ôûê"$pu"  WhatsApp     :  082219449227 "$i"                        Ôûê"
-echo $i"Ôûê"$pu"  YOUTUBE      :  Feri                        "$i"         Ôûê"
-echo $pur"==================="$cy" ============================================="
+echo $pur"==================="$cy" ========================================"
+echo $i"Ôûê"$pu"  AUTHOR       :  MR-JACK  "$i"                          Ôûê"
+echo $i"Ôûê"$pu"  Blogger      :  Blog-RedAxee.blogspot.com "$i"         Ôûê"
+echo $i"Ôûê"$pu"  WhatsApp     :  082219449227 "$i"                      Ôûê"
+echo $i"Ôûê"$pu"  YOUTUBE      :  Feri                      "$i"         Ôûê"
+echo $pur"==================="$cy" ========================================="
 echo
 echo $cy"MENU MR-JACK:"
 echo $ku"["$me"1"$ku"]"$i"Spam Call"
@@ -107,7 +107,6 @@ echo $ku"["$me"3"$ku"]"$i"Brutal Sms"
 echo $ku"["$me"4"$ku"]"$i"Melacak Orang"
 echo $ku"["$me"5"$ku"]"$i"HACK CCTV"
 echo $ku"["$me"6"$ku"]"$i"HACK FACEBOOK TARGET"
-echo $ku"["$me"7"$ku"]"$i"OPOK TELKOMSEL (FREE INTERNET)"
 echo $i"["$me"0"$i"]"$ku" EXIT"
 echo
 echo $pur"["$pur"Masukkan pilihan anda"$pur"]"
@@ -179,19 +178,6 @@ cd crkfb
 python2 fb.py
 fi
 
-if [ $pil = 7 ]
-then
-clear
-figlet -f slant "W A I T"|lolcat
-sleep 1
-pkg install python2 -y
-https://github.com/Rusmana-ID/polosan-telkomsel
-cd polosan-telkomsel
-python2 run.py
-python2 inject.py
-fi
-
-
 if [ $pil = 0 ]
 then
 clear
@@ -202,13 +188,13 @@ sleep 2
 echo $i"Silahkan di pakai semoga bermanfaat Buat anda"
 sleep 2
 echo $pur"Bila Ada Kesalahan Anda Bisa Nanya Melalui Via"
-sleep 2
+sleep 3
 echo $ku"Facebook :"$i" fb.com/redaxeee"
 echo $ku"YouTube  :"$i" Feri"
 echo $ku"WhatsApp :"$i" 082219449227"
-sleep 2
+sleep 3
 echo $pur"Terima kasih Yang Sudah Support dengan Tools ini"
-sleep 2
+sleep 3
 echo $pur"SUBSCRIBE MY CHANNEL { Feri }"
 exit
 fi
