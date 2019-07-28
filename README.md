@@ -16,4 +16,4 @@ git clone https://github.com/redaxee/MRJACK
 
 cd MRJACK
 
-sh log.sh
+sh x.sh
