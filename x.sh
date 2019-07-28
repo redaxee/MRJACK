@@ -94,10 +94,10 @@ clear
 echo
 echo
 echo $pur"==================="$cy" ========================================"
-echo $i"Ôûê"$pu"  AUTHOR       :  MR-JACK  "$i"                          Ôûê"
-echo $i"Ôûê"$pu"  Blogger      :  Blog-RedAxee.blogspot.com "$i"         Ôûê"
-echo $i"Ôûê"$pu"  WhatsApp     :  082219449227 "$i"                      Ôûê"
-echo $i"Ôûê"$pu"  YOUTUBE      :  Feri                      "$i"         Ôûê"
+echo $i"XX"$pu"  AUTHOR       :  MR-JACK  "$i"                          XX"
+echo $i"XX"$pu"  Blogger      :  Blog-RedAxee.blogspot.com "$i"         XX"
+echo $i"XX"$pu"  WhatsApp     :  082219449227 "$i"                      XX"
+echo $i"XX"$pu"  Youtube      :  Feri                      "$i"         XX"
 echo $pur"==================="$cy" ========================================="
 echo
 echo $cy"MENU MR-JACK:"
