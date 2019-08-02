@@ -11,10 +11,12 @@ br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
 
-print ("\033[1;32mSilahkan Masukkan Username & Password Anda")
-
-print ("\033[1;32matau silahkan Hubungi MR-JACK ")
+print('\033[1;36;40m<===============[ MR-JACK ] ===============>')
+print ("\033[1;32mSilahkan Masukkan Username & Password")
+print ("\033[1;32mAtau silahkan Hubungi MR-JACK ")
 print ("\033[1;32mWhatsApp : 0822 1944 9227 ")
+os.system('date | lolcat')
+print('\033[1;36;40m<===============[ MR-JACK ] ===============>'))
 
 username = 'MR-JACK'      
 
