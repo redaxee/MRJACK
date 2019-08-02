@@ -190,7 +190,7 @@ cd webdav
 sh webdav.sh
 fi
 
-if [ $pil = 7 ]
+if [ $pil = 8 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
