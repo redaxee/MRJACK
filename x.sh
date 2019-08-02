@@ -108,6 +108,7 @@ echo $ku"["$me"4"$ku"]"$i"Melacak Orang"
 echo $ku"["$me"5"$ku"]"$i"HACK CCTV"
 echo $ku"["$me"6"$ku"]"$i"HACK FACEBOOK TARGET"
 echo $ku"["$me"7"$ku"]"$i"Mencari Kelemahan WEB (RED_HAWK)"
+echo $ku"["$me"8"$ku"]"$i"Game"
 echo $i"["$me"0"$i"]"$ku" EXIT"
 echo
 echo $pur"["$pur"Masukkan pilihan anda"$pur"]"
@@ -135,7 +136,7 @@ cd BulkMailSpam
 python2 BulkMailSpam.py
 fi
 
-if [ $pil = 2 ]
+if [ $pil = 3 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
@@ -183,12 +184,24 @@ if [ $pil = 7 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
-figlet -f slant "MRX.pen"|lolcat
 sleep 5
 git clone https://github.com/ClayHackerTeam/webdav
 cd webdav
 sh webdav.sh
 fi
+
+if [ $pil = 7 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 5
+git clone https://github.com/redaxee/game
+cd game
+ls
+echo $pur" cara menggunakannya "
+echo $pur" sh game sh / python2 game titik py "
+fi
+
 
 if [ $pil = 0 ]
 then
